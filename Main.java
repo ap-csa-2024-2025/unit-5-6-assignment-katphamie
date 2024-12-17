@@ -2,10 +2,41 @@ import java.util.Scanner;
 
 public class Main
 {
+
+  public static void createDog(Dog inDog, String breed, String name, String color, String )
+  {
+    inDog.setBreed(breed);
+    inDog.setName(name);
+    inDog.setColor(color);
+    inDog.setWeight(weight);
+
+    Student student1 = Student(123456, 9, "Kianna")
+    student1.setGrade(10);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+
   public static void main(String[] args)
   {
     // Uncomment and complete the code below to test your Plane class
-    /* Delete this line to uncomment code **************************
     Scanner sc = new Scanner(System.in);
     String input = "";
     Plane p = new Plane(1000);
@@ -40,6 +71,5 @@ public class Main
         System.out.println("Invalid input");
       }
     }
-    Delete this line to uncomment ************************************/
   }
 }

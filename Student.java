@@ -12,6 +12,32 @@ public class Student
     name = input_name;
   }
 
+  public void setID(input_id)
+  {
+    this.ID = input_id;
+  }
+  public void setGrade(input_grade)
+  {
+    this.grade = input_grade;
+  }
+  public void setName(input_name)
+  {
+    this.name = input_name;
+  }
+
+  public int getID()
+  {
+    return ID;
+  }
+  public int getGrade()
+  {
+    return grade;
+  }
+  public String getName()
+  {
+    return name;
+  }
+
   public String toString()
   {
     return "ID: " + ID + "\nName: " + name + "\nGrade: " + grade;
